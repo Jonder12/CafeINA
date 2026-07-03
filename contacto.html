@@ -6,16 +6,31 @@
     <title>Contáctenos</title>
 </head>
 <body>
+     <header>
+        <nav>
+            <ul style="list-style-type: none; display: flex; gap: 20px; padding: 0;">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="nosotros.html">Sobre Nosotros</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="galeria.html">Galeria</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
     <section>
-        <table>
+        <table border="1">
             <form action="mailto:juanito123@mail.com">
                 <tr>
                     <td>Nombre:</td>
-                    <td><input type="text" name="nombre" value="" size="25" placeholder="Escriba su nombre"></td>
+                    <td><input type="text" name="nombre" value="" size="50" placeholder="Escriba su nombre"></td>
                 </tr>
                 <tr>
                     <td>Teléfono:</td>
-                    <td><input type="number" name="telefono" value="" size="25" maxlength="8" laceholder="Escriba su número de teléfono"></td>
+                    <td><input type="number" name="telefono" value="" size="50" maxlength="8" placeholder="Escriba su número de teléfono"></td>
+                </tr>
+                <tr>
+                    <td colspan="2">Solicitud: <br>
+                    <input type="textarea" name="descripcion" value="" size="100" placeholder="Escriba su número de teléfono"></td>
                 </tr>
             </form>
         </table>
